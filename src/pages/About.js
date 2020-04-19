@@ -4,31 +4,31 @@ export default class About extends Component {
     render() {
         return (
 
-            <section class="section has-background-white-ter" id="about">
+            <section className="section has-background-white-ter" id="about">
                 {/* <!-- Title --> */}
-                <div class="section-heading">
-                    <h3 class="title is-2">About Me</h3>
-                    <h4 class="subtitle is-5">A Brazilian without soccer skills</h4>
+                <div className="section-heading">
+                    <h3 className="title is-2">About Me</h3>
+                    <h4 className="subtitle is-5">A Brazilian without soccer skills</h4>
                 </div>
 
-                <div class="columns has-same-height is-gapless">
-                    <div class="column is-one-quarter">
+                <div className="columns has-same-height is-gapless">
+                    <div className="column is-one-quarter">
                         {/* <!-- Profile picture --> */}
-                        <div class="card">
-                            <div class="card-image">
-                                <figure class="image is-1by1">
+                        <div className="card">
+                            <div className="card-image">
+                                <figure className="image is-1by1">
                                     <img src="./assets/images/photo.jpg" alt="Thyago photo" />
                                 </figure>
                             </div>
                         </div>
                     </div>
-                    <div class="column">
+                    <div className="column">
                         {/* <!-- Profile --> */}
-                        <div class="card">
-                            <div class="card-content">
-                                <h3 class="title is-4">Profile</h3>
-                                <div class="content">
-                                    <table class="table-profile">
+                        <div className="card">
+                            <div className="card-content">
+                                <h3 className="title is-4">Profile</h3>
+                                <div className="content">
+                                    <table className="table-profile">
                                         <tr>
                                             <th colspan="1"></th>
                                             <th colspan="2"></th>
@@ -48,16 +48,16 @@ export default class About extends Component {
                                     </table>
                                 </div>
                                 <br />
-                                <div class="buttons has-addons is-centered">
-                                    <a href="https://github.com/tvolpatto" target="_blank" class="button is-link is-changeable">
-                                        <span class="icon">
-                                            <i class="fab fa-github"></i>
+                                <div className="buttons has-addons is-centered">
+                                    <a href="https://github.com/tvolpatto" target="_blank" className="button is-link is-changeable">
+                                        <span className="icon">
+                                            <i className="fab fa-github"></i>
                                         </span>
                                         <span>Github</span>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/thyago-volpatto-9b697539/" target="_blank" class="button is-link is-changeable">
-                                        <span class="icon">
-                                            <i class="fab fa-linkedin"></i>
+                                    <a href="https://www.linkedin.com/in/thyago-volpatto-9b697539/" target="_blank" className="button is-link is-changeable">
+                                        <span className="icon">
+                                            <i className="fab fa-linkedin"></i>
                                         </span>
                                         <span>
                                             LinkedIn
@@ -67,30 +67,30 @@ export default class About extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="column">
+                    <div className="column">
                         {/* <!-- Skills --> */}
-                        <div class="card">
-                            <div class="card-content skills-content">
-                                <h3 class="title is-4">Skills</h3>
-                                <div class="content">
-                                    <article class="media">
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <p class="is-medium">
-                                                    <i class="icons-padding fab fa-2x fa-java"></i>
-                                                    <i class="icons-padding fab fa-2x fa-js-square"></i>
-                                                    <i class="icons-padding fab fa-2x fa-html5"></i>
-                                                    <i class="icons-padding fab fa-2x fa-node-js"></i>
-                                                    <i class="icons-padding fab fa-2x fa-css3-alt"></i>
-                                                    <i class="icons-padding fab fa-2x fa-bootstrap"></i>
+                        <div className="card">
+                            <div className="card-content skills-content">
+                                <h3 className="title is-4">Skills</h3>
+                                <div className="content">
+                                    <article className="media">
+                                        <div className="media-content">
+                                            <div className="content">
+                                                <p className="is-medium">
+                                                    <i className="icons-padding fab fa-2x fa-java"></i>
+                                                    <i className="icons-padding fab fa-2x fa-js-square"></i>
+                                                    <i className="icons-padding fab fa-2x fa-html5"></i>
+                                                    <i className="icons-padding fab fa-2x fa-node-js"></i>
+                                                    <i className="icons-padding fab fa-2x fa-css3-alt"></i>
+                                                    <i className="icons-padding fab fa-2x fa-bootstrap"></i>
                                                     <hr />
                                                 </p>
                                             </div>
                                         </div>
                                     </article>
-                                    <article class="media">
-                                        <div class="media-content">
-                                            <div class="content">
+                                    <article className="media">
+                                        <div className="media-content">
+                                            <div className="content">
                                                 <p>
                                                     <strong>More Skills:</strong>
                                                     <br />
@@ -101,9 +101,9 @@ export default class About extends Component {
                                             </div>
                                         </div>
                                     </article>
-                                    <article class="media">
-                                        <div class="media-content">
-                                            <div class="content">
+                                    <article className="media">
+                                        <div className="media-content">
+                                            <div className="content">
                                                 <p>
                                                     <strong>Next learning objectives:</strong>
                                                     <br />
