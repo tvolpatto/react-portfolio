@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ProfilePicture from "../components/ProfilePicture"
 import Profile from "../components/Profile"
 import ProfileSkills from "../components/ProfileSkills"
 
-export default class About extends Component {
-    render() {
-        return (
+export default function About() {
 
+        return (
+            
             <section className="section has-background-white-ter" id="about">
                 {/* <!-- Title --> */}
                 <div className="section-heading">
@@ -36,5 +36,5 @@ export default class About extends Component {
                 </div>
             </section>
         )
-    }
+    
 }

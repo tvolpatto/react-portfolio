@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-export default class Contact extends Component {
-    render() {
+export default function Contact()  {
         return (
             <section className="section" id="contact">
                 <div className="container">
@@ -53,5 +52,5 @@ export default class Contact extends Component {
                 </div>
             </section>
         )
-    }
+  
 }
