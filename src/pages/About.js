@@ -2,11 +2,11 @@ import React from 'react'
 import ProfilePicture from "../components/ProfilePicture"
 import Profile from "../components/Profile"
 import ProfileSkills from "../components/ProfileSkills"
+import Resume from "../components/Resume"
 
 export default function About() {
 
-        return (
-            
+        return (         
             <section className="section has-background-white-ter" id="about">
                 {/* <!-- Title --> */}
                 <div className="section-heading">
@@ -34,6 +34,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+                <Resume/>
             </section>
         )
     
