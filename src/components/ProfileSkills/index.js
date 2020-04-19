@@ -15,8 +15,8 @@ export default function ProfileSkills() {
                                 <i className="icons-padding fab fa-2x fa-node-js"></i>
                                 <i className="icons-padding fab fa-2x fa-css3-alt"></i>
                                 <i className="icons-padding fab fa-2x fa-bootstrap"></i>
-                                <hr />
                             </p>
+                            <hr />
                         </div>
                     </div>
                 </article>
