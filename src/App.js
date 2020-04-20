@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import projects from "./utils/projects.json"
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import './App.css';
-import Portfolio from './pages/Portfolio';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
@@ -12,17 +11,15 @@ import Resume from './components/Resume';
 function App() {
 
   return (
-    <Router>
       <div>
         <Navbar />
         <Hero />
         <About/>
         <Resume/>
-        <Route exact path="/portfolio" component={Portfolio} />
+        <Portfolio projects={projects}/>
         <Contact/>
         <Footer />
       </div>
-    </Router>
 
   );
 }

@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "title": "Mood.",
+      "image":{
+          "url":"./assets/images/mood.png",
+          "alt": "Mood."
+      },
+      "preview": "https://matthewlgrimes94.github.io/mood./",
+      "code": "https://github.com/Matthewlgrimes94/mood.",
+      "env": [ {
+                    "icon": "fas fa-desktop",
+                    "text": "Desktop Support"
+                },
+                {
+                    "icon" : "fas fa-mobile-alt",
+                    "text": "Mobile Support"
+                }],
+      "techs": [{"name":"Foundation", "tag": "tag is-primary"}, 
+                {"name":"JQuery", "tag":"tag is-default"}]
+    },
+    {
+        "id": 2,
+        "title": "Salt City Services",
+        "image":{
+            "url":"./assets/images/salt.png",
+            "alt": "Salt City Services"
+        },
+        "preview": "https://salt-city-services.herokuapp.com/",
+        "code": "https://github.com/tvolpatto/salt.",
+        "env": [ {
+                      "icon": "fas fa-desktop",
+                      "text": "Desktop Support"
+                  },
+                  {
+                      "icon" : "fas fa-mobile-alt",
+                      "text": "Mobile Support"
+                  }],
+        "techs": [{"name":"Materialize", "tag": "tag is-primary"}, 
+                  {"name":"JQuery", "tag":"tag is-default"},
+                  {"name":"MySql", "tag":"tag is-danger"},
+                  {"name":"Sequelize", "tag":"tag is-warning"}]
+      },
+      {
+        "id": 3,
+        "title": "Master of JS",
+        "image":{
+            "url":"./assets/images/quiz.png",
+            "alt": "Master of JS"
+        },
+        "preview": "https://tvolpatto.github.io/master-of-js-quizz/",
+        "code": "https://github.com/tvolpatto/master-of-js-quizz",
+        "env": [ {
+                      "icon": "fas fa-desktop",
+                      "text": "Desktop Support"
+                  },
+                  {
+                      "icon" : "fas fa-mobile-alt",
+                      "text": "Mobile Support"
+                  }],
+        "techs": [{"name":"Bootstrap", "tag": "tag is-primary"}, 
+                  {"name":"JQuery", "tag":"tag is-default"}]
+      },
+      {
+        "id": 4,
+        "title": "Weather Dashboard",
+        "image":{
+            "url":"./assets/images/weather.png",
+            "alt": "Weather Dashboard"
+        },
+        "preview": "https://tvolpatto.github.io/weather-dashboard/",
+        "code": "https://github.com/tvolpatto/weather-dashboard",
+        "env": [ {
+                      "icon": "fas fa-desktop",
+                      "text": "Desktop Support"
+                  },
+                  {
+                      "icon" : "fas fa-mobile-alt",
+                      "text": "Mobile Support"
+                  }],
+        "techs": [{"name":"Materialize", "tag": "tag is-primary"}, 
+                  {"name":"JQuery", "tag":"tag is-default"},
+                  {"name":"OpenWeather API", "tag":"tag is-danger"}]
+      },
+      {
+        "id": 5,
+        "title": "Day planner",
+        "image":{
+            "url":"./assets/images/day-planner.PNG",
+            "alt": "Day planner"
+        },
+        "preview": "https://tvolpatto.github.io/day-planner/",
+        "code": "https://github.com/tvolpatto/day-planner",
+        "env": [ {
+                      "icon": "fas fa-desktop",
+                      "text": "Desktop Support"
+                  },
+                  {
+                      "icon" : "fas fa-mobile-alt",
+                      "text": "Mobile Support"
+                  }],
+        "techs": [{"name":"Materialize", "tag": "tag is-primary"}, 
+                  {"name":"JQuery", "tag":"tag is-default"}]
+      },
+      {
+        "id": 6,
+        "title": "Engineering Team",
+        "image":{
+            "url":"./assets/images/team-profile.gif",
+            "alt": "Engineering Team"
+        },
+        "preview": "https://github.com/tvolpatto/engineering-team-generator/blob/master/extras/gif/team-profile.gif",
+        "code": "https://github.com/tvolpatto/engineering-team-generator/",
+        "env": [ {
+                      "icon": "fas fa-terminal",
+                      "text": "Terminal"
+                  }],
+        "techs": [{"name":"CLI", "tag": "tag is-primary"}, 
+                  {"name":"Node", "tag":"tag is-default"},
+                  {"name":"InquirerJs", "tag":"tag is-danger"}]
+      }
+   
+]
