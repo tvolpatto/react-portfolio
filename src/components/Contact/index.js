@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
+import SectionHeader from '../SectionHeader'
 
 export default function Contact()  {
         return (
             <section className="section" id="contact">
                 <div className="container">
-                    <div className="section-heading">
-                        <h3 className="title is-2">Contact</h3>
-                        <h4 className="subtitle is-5">Call me maybe</h4>
-                    </div>
+                <SectionHeader title={"Contact"} subtitle={"Call me maybe"}/>
+                   
                     <br/>
                     <div className="columns">
                         <div className="column is-6 is-offset-3">

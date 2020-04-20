@@ -2,6 +2,7 @@ import React from 'react'
 import ProfilePicture from "../ProfilePicture"
 import Profile from "../Profile"
 import ProfileSkills from "../ProfileSkills"
+import SectionHeader from '../SectionHeader'
 
 
 export default function About() {
@@ -9,11 +10,8 @@ export default function About() {
         return (         
             <section className="section has-background-white-ter" id="about">
                 {/* <!-- Title --> */}
-                <div className="section-heading">
-                    <h3 className="title is-2">About Me</h3>
-                    <h4 className="subtitle is-5">A Brazilian without soccer skills</h4>
-                </div>
-
+                <SectionHeader title={"About Me"} subtitle={"A Brazilian without soccer skills"}/>
+                
                 <div className="columns has-same-height is-gapless">
                     <div className="column is-one-quarter">
                         {/* <!-- Profile picture --> */}

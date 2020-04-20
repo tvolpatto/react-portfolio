@@ -1,14 +1,15 @@
 import React from 'react'
 import Project from "../Project"
+import SectionHeader from '../SectionHeader'
 
 export default function Portfolio(props) {
     return (
         <section className="section has-background-white-ter" id="portfolio">
                 <div className="container">
-                    <div className="section-heading">
-                        <h3 className="title is-2">Portfolio</h3>
-                        <h4 className="subtitle is-5">My latest works</h4>
-                    </div>
+                    <SectionHeader 
+                        title={"Portfolio"}
+                        subtitle={"My latest work"}
+                        />
                     <br />
                     <div className="container portfolio-container">
                         <div className="columns is-multiline">
