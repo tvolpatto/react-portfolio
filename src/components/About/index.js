@@ -1,8 +1,8 @@
 import React from 'react'
-import ProfilePicture from "../components/ProfilePicture"
-import Profile from "../components/Profile"
-import ProfileSkills from "../components/ProfileSkills"
-import Resume from "../components/Resume"
+import ProfilePicture from "../ProfilePicture"
+import Profile from "../Profile"
+import ProfileSkills from "../ProfileSkills"
+
 
 export default function About() {
 
@@ -34,7 +34,6 @@ export default function About() {
                         </div>
                     </div>
                 </div>
-                <Resume/>
             </section>
         )
     

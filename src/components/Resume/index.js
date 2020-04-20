@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
     return (
-        
+        <section className="section has-background-white-ter" id="resume">
             <div className="section-heading">
                 <h3 className="title is-2">Resume</h3>
                 <h4 className="subtitle is-5">More about my past</h4>
@@ -13,5 +13,6 @@ export default function Resume() {
                     <span>Download My Resume</span>
                 </a>
             </div>
+        </section>
     )
 }
