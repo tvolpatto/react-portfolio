@@ -1,6 +1,6 @@
 {
-  "name": "react-porfolio",
-  "homepage": "http://tvolpatto.github.io/react-porfolio",
+  "name": "react-portfolio",
+  "homepage": "http://tvolpatto.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
