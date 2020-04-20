@@ -6,10 +6,7 @@ export default function Portfolio(props) {
     return (
         <section className="section has-background-white-ter" id="portfolio">
                 <div className="container">
-                    <SectionHeader 
-                        title={"Portfolio"}
-                        subtitle={"My latest work"}
-                        />
+                    <SectionHeader title={"Portfolio"} subtitle={"My latest work"}/>
                     <br />
                     <div className="container portfolio-container">
                         <div className="columns is-multiline">
