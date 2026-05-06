@@ -15,7 +15,7 @@ export default function Profile() {
                     <tbody>
                     <tr>
                         <td>Address:</td>
-                        <td>Bluffdale - UT</td>
+                        <td>Eagle Mountain - UT</td>
                     </tr>
                     <tr>
                         <td>Phone:</td>
